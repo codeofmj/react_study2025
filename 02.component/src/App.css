@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    gap:20px;
+}
+.team-info{
+    width: 100px;
+    height: 150px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-info > h4{
+    margin: 0;
+}
