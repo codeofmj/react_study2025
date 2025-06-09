@@ -1,5 +1,8 @@
 import './App.css'
+import BattleNumber from './components/BattleNumber'
 import Count from './components/Count'
+import LikeCount from './components/LikeCount'
+import LikeCount2 from './components/LikeCount2'
 import MemberInfo from './components/MemberInfo'
 import Menubox from './components/Menubox'
 
@@ -45,7 +48,19 @@ function App() {
       </div> */}
 
       {/* state 실습 */}
-      <Count/>
+      {/* <Count/> */}
+
+      {/* state 실습2 */}
+      {/* <LikeCount/> */}
+
+      {/* state 실습3 */}
+      {/* <LikeCount2/> */}
+
+      {/* state 실습4 */}
+      {/* <BattleNumber/> */}
+
+      {/* Github연동 실습 - dice app */}
+      
     </>
   )
 }
